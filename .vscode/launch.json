@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:dependently-typed-core-language-swift}",
+            "name": "Debug CedilleCore",
+            "program": "${workspaceFolder:dependently-typed-core-language-swift}/.build/debug/CedilleCore",
+            "preLaunchTask": "swift: Build Debug CedilleCore"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:dependently-typed-core-language-swift}",
+            "name": "Release CedilleCore",
+            "program": "${workspaceFolder:dependently-typed-core-language-swift}/.build/release/CedilleCore",
+            "preLaunchTask": "swift: Build Release CedilleCore"
+        }
+    ]
+}
