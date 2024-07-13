@@ -1,8 +1,12 @@
-# A dependently-typed core language in Swift
+# A Dependently-Typed Core Language in Swift
 
 ## Overview
 
 CedilleCore is a Swift implementation of Cedille Core dependent type theory. This project provides foundational components to work with dependent types, intersection types, and type checking.
+
+### What are Dependent Types?
+
+Dependent types are types that depend on values. This means that the type of a value can be influenced by other values in scope. Dependent types allow for more expressive type systems, enabling the encoding of richer invariants and properties directly in the type system. This can lead to more robust and verifiable code.
 
 ## Features
 
